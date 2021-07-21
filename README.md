@@ -12,7 +12,7 @@
 
 ### Concepts Used In This Project :-
 
-1. Used startup-name-generator library
+1. [Used startup-name-generator library](https://github.com/rstacruz/startup-name-generator)
 2. React Basics
     1. Components
     2. Data Flow
