@@ -9,11 +9,15 @@ class App extends React.Component {
         headerText: 'Hint Names',
     }
 
+    handleInput = (inputText) => {
+        console.log(inputText);
+    };
+
     render() {
         return (
             <div>
                 <Header headTitle={this.state.headerText} />
-                <SearchBox />
+                <SearchBox onInputChange={this.handleInput} />
             </div>
         );
     }
