@@ -7,17 +7,18 @@ class App extends React.Component {
 
     state = {
         headerText: 'Hint Names',
+        headerExpanded: true,
     }
 
-    handleInput = (inputText) => {
-        console.log(inputText);
+    handleInputChange = (inputText) => {
+        this.setState({ headerExpanded: !inputText });
     };
 
     render() {
         return (
             <div>
-                <Header headTitle={this.state.headerText} />
-                <SearchBox onInputChange={this.handleInput} />
+                <Header headerExpanded={this.state.headerExpanded} headTitle={this.state.headerText} />
+                <SearchBox onInputChange={this.handleInputChange} />
             </div>
         );
     }
