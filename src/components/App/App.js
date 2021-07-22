@@ -5,19 +5,13 @@ import './App.css';
 class App extends React.Component {
 
     state = {
-        headerText: 'Using setState Will Change This',
+        headerText: 'Hint Names',
     }
 
     render() {
         return (
             <div>
-                <Header />
-                <h1>{this.state.headerText}</h1>
-                <button onClick={() => {
-                    this.setState({
-                        headerText: 'Chaitanya Changed This',
-                    })
-                }}>Change HeaderText</button>
+                <Header headTitle={this.state.headerText} />
             </div>
         );
     }
