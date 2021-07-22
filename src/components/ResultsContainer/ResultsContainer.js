@@ -1,10 +1,14 @@
 import React from 'react';
 import './ResultsContainer.css';
 
-const ResultsContainer = () => {
+const ResultsContainer = ({ suggestedNames }) => {
+    const suggestedNameJSX = suggestedNames.map(suggestedName => {
+        return <p>{suggestedName}</p>;
+    });
+
     return (
         <div>
-            <p>These are the results!</p>
+            <p>{suggestedNameJSX}</p>
         </div>
     );
 };
