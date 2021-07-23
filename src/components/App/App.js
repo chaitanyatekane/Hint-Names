@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
 import ResultsContainer from '../ResultsContainer/ResultsContainer';
 import SearchBox from '../SearchBox/SearchBox';
 import './App.css';
@@ -18,6 +19,7 @@ const App = () => {
 
     return (
         <div>
+            <Navbar />
             <Header headerExpanded={headerExpanded} />
             <SearchBox onInputChange={handleInputChange} />
             <ResultsContainer suggestedNames={suggestedNames} />

@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .head-image {
     width: auto;
     transition: max-width 1s, min-width 1s;
+    border-radius: 5%;
 }
 
 .head-image-expanded {
@@ -20,9 +21,10 @@
     min-width: 40px;
 }
 .head-text {
-    font-family: 'Hachi Naru Pop', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px 0 15px 0;
     transition: font-size 1s;
+    text-align: center;
 }
 
 .head-text-expanded {
@@ -30,5 +32,5 @@
 }
 
 .head-text-contracted {
-    font-size: 12px;
+    font-size: 25px;
 }
