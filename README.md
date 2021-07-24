@@ -14,6 +14,14 @@ Hint-Names is a react based project intended to generate and suggest startup/ven
 6. Flow/Sequence Diagrams
 7. Actual Coding
 
+### Live Demo :-
+https://user-images.githubusercontent.com/71593995/126863959-2c591921-fbe7-4a37-b53d-656646e4a0cf.mp4
+
+<br>
+
+[Click Here](https://hintnames.netlify.app/) 
+To Preview
+
 ### Library Used :-
 [startup-name-generator library](https://github.com/rstacruz/startup-name-generator)
 
